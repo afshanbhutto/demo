@@ -5,7 +5,7 @@ import { SlArrowDown} from 'react-icons/sl'
 
 const AboutInfo = () => {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto md:mb-56 ">
         <div className="flex items-center justify-center  uppercase h-[14.7px]  w-[100%] mt-5 mb-8 ">
                 <div className='text-sm md:text-xl self-center md:mtracking-wider '>A real estate and property platform that is changing the world</div>
         </div>
