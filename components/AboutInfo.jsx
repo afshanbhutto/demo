@@ -16,9 +16,9 @@ const AboutInfo = () => {
                 <h1 className='tracking-[0.36rem] text-4xl font-medium'>Entries - sellers</h1>
                 <h1 className='tracking-[0.7rem] text-5xl font-semibold'>WorldWide</h1>
             </div>
-            <div className='w-auto absolute flex flex-col top-[100px] bottom-0 right-0 md:w-[589px] items-center'>
-                 <Image src="/Group-4743.png" width={450} height={120}  className='mt-28 md:mt-20' alt=''/>
-                 <div className='h-[14.7px] leading-10 w-[589px] mt-5 uppercase tracking-wider text-center'>
+            <div className='w-auto absolute flex flex-col top-[100px] bottom-0 right-0 md:w-[600px] items-center'>
+                 <Image src="/Group-4743.png" width={390} height={120}  className='mt-28 md:mt-20' alt=''/>
+                 <div className='h-[14.7px] leading-10 md:w-[600px] mt-5 uppercase tracking-wider text-center'>
                     <p className=''>Connecting users from accross te globe</p>
                     <p className=''>to faciliate lifes most important</p>
                     <p className=''>personal transactions</p>
