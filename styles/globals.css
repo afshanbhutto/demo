@@ -12,18 +12,34 @@
     font-style: normal;
 }
 
+
 body{
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 main{
     padding: 0 60px;
 }
 
+
+/* .custom-clock{
+    
+     font-family: Arial, sans-serif;
+        font-size: 5rem;
+        font-weight: bold;
+        color: #333;
+} */
+
+
+.time-text {
+    font-size: 14px;
+    color: white;
+    text-align: left;
+  }
+
 .slick-slide>div{
-    margin: 0 54px;
+    margin: 0 10px;
 }
 
 .slick-slide>div:nth-child(1){

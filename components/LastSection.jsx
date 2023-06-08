@@ -3,7 +3,7 @@ import Image from 'next/image';
 import {AiOutlineArrowRight} from 'react-icons/ai'
 const LastSection = () => {
   return (
-    <div className='container-fluid bg-[url("/a127809b20d09f96783f575dbf41f49f.jpg")] h-[100vh] top-[1000px] bg-opacity-70 bg-cover  bg-no-repeat bg-center flex items-center relative'>
+    <div className=' bg-[url("/a127809b20d09f96783f575dbf41f49f.jpg")] h-[100vh] top-[800px]  bottom-0 opacity-70 bg-cover  bg-no-repeat bg-center flex items-center relative'>
         <div className="container mx-auto px-4 z-10">
             <div className="flex flex-col md:justify-end  items-center text-center md:text-right text-white">
                 <div className='w-auto absolute  md:left-[60%] top-[10%] '>

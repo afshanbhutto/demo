@@ -67,18 +67,18 @@ const MySlider = () => {
 
     }
   return (
-    <div className='container mx-auto relative top-[250px] md:top-[400px] lg:top-[10%]'>
-        <div className=''>
-            <h1 className='font-semibold text-[40px] text-left mt-[20px] mb-[50px]'>Categories</h1>
-            <div className='relative'>
+    <div className='container-fluid md:container w-[400px] mx-auto  top-[250px] md:top-[100px] lg:top-[10%]'>
+        <div className='top-[1000px]'>
+            <h1 className=' uppercase text-[40px] text-left mt-[20px] mb-[50px] leading-8 tracking-wider'>Our Categories</h1>
+            <div className='relative mb-20'>
             
                 <Slider {...settings}>    
                     {images.map((imgData, index) => <Card key={index} img={imgData.img}/>)}
                 </Slider>
             </div>
-            <div className='text-center pt-10'>
-                <h1 className='text-xm md:text-2xl uppercase mb-5 tracking-widest font-semibold'>One platform for all premium listings</h1>
-                <h2 className='text-xm md:text-2xl uppercase mb-5 tracking-widest'>Unlimited potential</h2>
+            <div className='text-center mb-20'>
+                <h1 className='text-xm md:text-[50px] uppercase  tracking-widest mb-[6rem]'>One platform for all premium listings</h1>
+                <h2 className='text-xm md:text-[40px] uppercase mb-5 tracking-widest leading-[18px]'>Unlimited potential</h2>
             </div>
         </div>
     </div>
