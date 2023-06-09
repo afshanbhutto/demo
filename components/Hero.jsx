@@ -12,8 +12,7 @@ const Hero = () => {
         <div className="container mx-auto px-4 z-10">
         <div className='absolute top-[12%] w-[99px] h-[30px] flex gap-2 text-xl leading-8 tracking-widest uppercase items-center text-white'>
                     
-                    <div className=''><AiOutlineArrowLeft size={30} /></div>
-                    <div>Back</div>
+                    
                 </div>
             <div className="flex flex-col text-left text-white gap-[10px] md:gap-[20px]">
                 <div className='tracking-wider leading-8' >
