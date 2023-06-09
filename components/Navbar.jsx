@@ -28,11 +28,11 @@ const Navbar = () => {
   }
 
   return (
-    <div className='container-fluid   static bg-transparent w-full top-0  text-white  child-div grid grid-cols-3  sm:pt-[20px] items-center   justify-between   pt-[2%]'>
-        
+    <div className='container items-center mx-auto  static bg-blue w-full top-0  text-white'>
+        <div className="container  flex justify-between py-4 px-4 items-center">
             <div className='flex  items-center justify-center text-white'>
               
-                <img src="/first-logo.png"  alt='' className='  md:w-[65.96px] w-[25px] md:mr-[39px] mr-2 h-[20px] md:h-[50px] '/>
+                <img src="/first-logo.png"  alt='' className='  lg:w-[65.96px] w-[25px] md:mr-[39px] mr-2 h-[20px] md:h-[50px] '/>
               
              
               <img className='text-white  hidden md:flex md:w-[184.9px] w-[25px] h-[20px] md:h-[50px]  md:mr-[39px] mr-3  ' src="/main-logo.png" alt=''/>
@@ -43,7 +43,7 @@ const Navbar = () => {
               
             </div>
             <div className='flex justify-center'>
-               <img src="/white-logo.png" className='  md:w-[204.38px]  w-[100px] h-[auto]  ' alt=''/>
+               <img src="/white-logo.png" className='  lg:w-[204.38px]  w-[100px] h-[auto]  ' alt=''/>
             </div>
             <div className='flex justify-end  items-center'>
 
@@ -87,7 +87,13 @@ const Navbar = () => {
               </div>
               
             </div>
-            <div className=' mt-[30px]  text-white flex items-center  justify-center'>
+            {/* {toggle ? (
+                <AiOutlineClose size={38} onClick={()=>setToggle(!toggle)} className='md:hidden block'/>
+            ):(
+                <FiMenu size={38} onClick={()=>setToggle(!toggle)} className='md:hidden block'/>
+            )} */}
+        </div>
+        <div className=' mt-[30px]  text-white flex'>
 <button className='text-white flex '>
 <div className='w-[22px] mt-1 md:mt-2 mr-2  h-[16px] '><AiOutlineArrowLeft size={30} /></div>
                     <p className=' uppercase text-[17px] md:text-[22px] tracking-[4px] '>
@@ -96,21 +102,15 @@ Back
 
 </button>
             </div>
-            {/* {toggle ? (
-                <AiOutlineClose size={38} onClick={()=>setToggle(!toggle)} className='md:hidden block'/>
-            ):(
-                <FiMenu size={38} onClick={()=>setToggle(!toggle)} className='md:hidden block'/>
-            )} */}
-        </div>
-              // {/* Responsiveness for menu */}
-        // {/* <div className={`duration-300 md:hidden flex flex-col
-        //                  w-[80%] h-screen fixed bg-black text-white top-[0px] 
-        //                  ${toggle?`left-[0]`:`left-[-100%]`}`}>
-        //       <Link href='/' className="hover:text-gren-700 py-5">About us</Link>
-        //        <Link href='/' className="hover:text-gren-700 py-5">About us</Link>
-        //        <Link href='/' className="hover:text-gren-700 py-5">About us</Link>
-        // </div> */}
-    
+              {/* Responsiveness for menu */}
+        {/* <div className={`duration-300 md:hidden flex flex-col
+                         w-[80%] h-screen fixed bg-black text-white top-[0px] 
+                         ${toggle?`left-[0]`:`left-[-100%]`}`}>
+              <Link href='/' className="hover:text-gren-700 py-5">About us</Link>
+               <Link href='/' className="hover:text-gren-700 py-5">About us</Link>
+               <Link href='/' className="hover:text-gren-700 py-5">About us</Link>
+        </div> */}
+    </div>
   )
 }
 

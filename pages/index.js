@@ -18,14 +18,14 @@ const Home = () => {
       <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
       <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
     </Head>
-    <main className='m-0 p-0 container-fluid w-full '>
+    <main >
       <section id='hero-section' >
         <Hero />
       </section>
       <section id='about-info-section'>
         <AboutInfo/>
       </section>
-      <section id='last-section' className='relative'>
+      <section id='last-section' className='   mt-[120px] sm:mt-[25px]  px-[30px]  flex   uppercase tracking-[2px] flex-col justify-between '>
       <MySlider/>
       <EntryTickets/>
       <LastSection/>
