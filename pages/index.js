@@ -7,7 +7,7 @@ import EntryTickets from '@/components/EntryTickets';
 import MySlider from '@/components/MySlider';
 import LastSection from '@/components/LastSection';
 
-const inter = Inter({ subsets: ['latin'] })
+
 
 const Home = () => {
   return (

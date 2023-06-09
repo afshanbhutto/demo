@@ -5,14 +5,23 @@ import NextArrow from './NextArrow';
 import PrevArrow from './PrevArrow';
 
 const images = [
-    { img : "/pic-1.jpg"},
-    { img : "/pic-2.png"},
-    { img : "/pic-3.jpg"},
-    { img : "/pic-4.png"},
-    { img : "/pic-5.png"},
-    { img : "/pic-6.png"},
-    { img : "/pic-7.png"},
-    { img : "/pic-8.jpg"},
+    { img : "/pic-1.jpg",
+    imgDesc:"JETS"
+},
+    { img : "/pic-2.png",
+    imgDesc:"PRIVATE ISLANDS"},
+    { img : "/pic-3.jpg",
+    imgDesc:"REAL ESTATE"},
+    { img : "/pic-4.png",
+    imgDesc:"CARS"},
+    { img : "/pic-5.png",
+    imgDesc:"YACHTS"},
+    { img : "/pic-6.png",
+    imgDesc:"WATCHES"},
+    { img : "/pic-7.png",
+    imgDesc:"TRAVEL THE WORLD"},
+    { img : "/pic-8.jpg",
+    imgDesc:"DAIMONDS"},
 ]
 
 const MySlider = () => {
@@ -73,7 +82,7 @@ const MySlider = () => {
             <div className='relative mb-20'>
             
                 <Slider {...settings}>    
-                    {images.map((imgData, index) => <Card key={index} img={imgData.img}/>)}
+                    {images.map((imgData, index) => <Card key={index} img={imgData.img} imgDesc={imgData.imgDesc}/>)}
                 </Slider>
             </div>
             <div className='text-center mb-20'>
