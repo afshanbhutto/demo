@@ -17,6 +17,9 @@ module.exports = {
   //   'lg': '1440px',
   //   // => @media (min-width: 1440px) { ... }
   // },
+  // colors:{
+  //   golden:"#BE9F56",
+  // },
   screens: {
     'sm': '640px',
     'md': '768px',

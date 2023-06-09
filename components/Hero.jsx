@@ -5,9 +5,9 @@ import Navbar from './Navbar';
 import Link from 'next/link';
 const Hero = () => {
   return (
-    <div className="container-fluid   m-0 p-0 ">
-<div className='bg-[url("/ad08e64c018e38e3d381ca3f8f1ce858.jpg")] h-[500px] md:h-screen w-[500px] md:w-full m-0 p-0  bg-cover  bg-no-repeat bg-center flex gap-[30%]   flex-col lg:gap-[30%] md:gap-[20%] relative'>
-        <div className="absolute insert-0 bg-black/50"></div>
+    <div className="container-fluid  m-0 p-0 ">
+<div className='bg-[url("/ad08e64c018e38e3d381ca3f8f1ce858.jpg")] h-[500px] md:h-screen w-[500px] md:w-full  m-0 p-0  bg-cover  bg-no-repeat bg-center flex gap-[30%]   flex-col lg:gap-[30%] md:gap-[20%] relative'>
+        <div className="absolute insert-0 bg-black/50  z-20"></div>
         <Navbar/>
         <div className="container mx-auto px-4 z-10">
         <div className='absolute top-[12%] w-[99px] h-[30px] flex gap-2 text-xl leading-8 tracking-widest uppercase items-center text-white'>

@@ -13,17 +13,17 @@ const EntryTickets = () => {
             <p className="text-[20px] mb-5">FOR ALL PREMIUM LISTINGS</p>
           </div>
         </div>
-        <div className="items-left md:justify-right w-[500px] h-[400px] md:w-[800px] md:h-[550px]">
+        <div className="items-left md:justify-right w-[500px] h-[400px] md:w-[700px] md:h-[550px]">
           <div
             className="flex flex-col absolute md:justify-end w-[500px] h-[400px]
-        md:w-[800px] md:h-[550px] "
+        md:w-[700px] md:h-[550px] "
           >
             <Image
               src="/65c8a1f0ee7329a44d1812b2f35ced5c.jpg"
               className="rounded-md
             bg-contain bg-no-repeat bg-center
             backdrop-opacity-70 bg-black/40 insert-0 object-cover"
-              width={760}
+              width={700}
               height={550}
               alt="/"
             />

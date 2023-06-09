@@ -67,9 +67,9 @@ const MySlider = () => {
 
     }
   return (
-    <div className='container-fluid md:container w-[400px] mx-auto  top-[250px] md:top-[100px] lg:top-[10%]'>
+    <div className='container-fluid md:container w-[400px] mx-auto  top-[50px] md:top-[100px] lg:top-[10%]'>
         <div className='top-[1000px]'>
-            <h1 className=' uppercase text-[40px] text-left mt-[20px] mb-[50px] leading-8 tracking-wider'>Our Categories</h1>
+            <h1 className=' uppercase text-[40px] text-left mt-[200px] mb-[50px] leading-8 tracking-wider'>Our Categories</h1>
             <div className='relative mb-20'>
             
                 <Slider {...settings}>    
