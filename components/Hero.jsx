@@ -31,7 +31,7 @@ const Hero = () => {
                     <p className='tracking-wider font-normal'>Bringing the world closer together</p>
                 </div>
                 <Link href={"#about-info-section"}>
-                    <div className='w-[80px] h-[40px] text-white'><SlArrowDown size={40}/></div>
+                    <div className='w-[80px] h-[40px] text-white scroll-smooth'><SlArrowDown size={40}/></div>
                 </Link>
                 
             </div>
