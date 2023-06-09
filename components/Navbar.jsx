@@ -34,7 +34,7 @@ const Navbar = () => {
                 <img src="/first-logo.png"  alt='' className='  lg:w-[65.96px] w-[25px] mr-[39px] sm:mr-2 h-[20px] lg:h-[50px] '/>
               
              
-              <img className='text-white  hidden lg:flex lg:w-[184.9px] w-[25px] h-[20px] lg:h-[50px]  lg:mr-[39px] mr-3  ' src="/main-logo.png" alt=''/>
+              <img className='text-white  hidden md:flex md:w-[184.9px] w-[25px] h-[20px] md:h-[50px]  md:mr-[39px] mr-3  ' src="/main-logo.png" alt=''/>
               
                 <p className=' text-white uppercase sm:mt-1   mt-[25px] text-xs tracking-[2px] ' >
                   About
